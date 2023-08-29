@@ -149,7 +149,7 @@ p {
     visibility: hidden;
  }
 
- @media (max-width: 1200px) and (min-width: 415px) {
+ @media (min-width: 315px) {
     .top-column > .far-left {
        order: 1;
        width: 100%;
