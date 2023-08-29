@@ -1,0 +1,38 @@
+   $('#pdcts').hide();
+   $('#close').hide();
+  
+  $(function(){
+      $('#link').on('click mouseover', function(){
+      $('#pdcts').show();
+     }); 
+   });
+
+    
+ 
+     $(function() {
+      $('#menu').on('click', function() {
+        $('#pdcts').show();
+        $('#menu').hide();
+        $('#close').show();
+
+       });
+    });    
+
+         $(function() {
+            $('#close').on('click', function() {
+          $('#pdcts').hide();
+          $('#menu').show();
+          $('#close').hide();
+        
+         });
+       });
+  
+
+
+
+
+
+
+
+
+
